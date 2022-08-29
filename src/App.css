@@ -1,0 +1,59 @@
+.game-container {
+    width: 90%;
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game-heading {
+    color: #2B283A;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: 'Karla';
+    margin: 0;
+}
+
+.game-description {
+    color: #4A4E74;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: 'Intel';
+    text-align: center;
+    margin: 0;
+}
+
+.game-record {
+    margin: 10px 0 0;
+}
+
+.dice-container {
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 18px;
+    margin: 25px 0;
+}
+
+.roll-button {
+    background: #5035FF;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.18);
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Karla';
+    line-height: 19px;
+    padding: 6px 21px;
+    cursor: pointer;
+}
+
+.confetti {
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+}
